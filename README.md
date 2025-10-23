@@ -184,10 +184,6 @@ Feel free to:
 - Optimize hyperparameters
 - Enhance data preprocessing
 
-##  License
-
-MIT License - feel free to use this project for educational and research purposes.
-
 ##  Author
 
 Snikitha V 
@@ -196,4 +192,5 @@ Akhilesh K
 ---
 
 **Last Updated**: October 23, 2025
+
 
