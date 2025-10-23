@@ -55,6 +55,42 @@ RealorAI/
 │               └── FAKE/              # 10,000 fake images
 ```
 
+## Model Comparison Results
+
+| Model               | Accuracy | Precision | Recall | F1-Score |
+|---------------------|----------|-----------|--------|----------|
+| Logistic Regression | 0.6555   | 0.6582    | 0.647  | 0.6525   |
+| KNN                 | 0.6618   | 0.7016    | 0.563  | 0.6247   |
+| SVM                 | 0.8105   | 0.8114    | 0.809  | 0.8102   |
+| Naive Bayes         | 0.6050   | 0.5947    | 0.6595 | 0.6254   |
+| Decision Tree       | 0.6755   | 0.7270    | 0.562  | 0.6340   |
+| Random Forest       | 0.8040   | 0.7946    | 0.820  | 0.8071   |
+| XGBoost             | 0.8143   | 0.8141    | 0.8145 | 0.8143   |
+| AdaBoost            | 0.7068   | 0.7064    | 0.7075 | 0.7070   |
+| MLP                 | 0.7548   | 0.7786    | 0.712  | 0.7438   |
+
+## Visualizations
+
+### Metrics Summary
+![Metrics Summary](ML%20Prj%20CIFAKE/docs/images/metrics_summary.png)
+
+### Metrics Heatmap
+![Metrics Heatmap](ML%20Prj%20CIFAKE/docs/images/metrics_heatmap.png)
+
+### Confusion Matrices
+
+| Model               | Confusion Matrix |
+|---------------------|-----------------|
+| Logistic Regression | ![cm_Logistic_Regression](ML%20Prj%20CIFAKE/docs/images/cm_Logistic_Regression.png) |
+| KNN                 | ![cm_KNN](ML%20Prj%20CIFAKE/docs/images/cm_KNN.png) |
+| SVM                 | ![cm_SVM](ML%20Prj%20CIFAKE/docs/images/cm_SVM.png) |
+| Naive Bayes         | ![cm_Naive_Bayes](ML%20Prj%20CIFAKE/docs/images/cm_Naive_Bayes.png) |
+| Decision Tree       | ![cm_Decision_Tree](ML%20Prj%20CIFAKE/docs/images/cm_Decision_Tree.png) |
+| Random Forest       | ![cm_Random_Forest](ML%20Prj%20CIFAKE/docs/images/cm_Random_Forest.png) |
+| XGBoost             | ![cm_XGBoost](ML%20Prj%20CIFAKE/docs/images/cm_XGBoost.png) |
+| AdaBoost            | ![cm_AdaBoost](ML%20Prj%20CIFAKE/docs/images/cm_AdaBoost.png) |
+| MLP                 | ![cm_MLP](ML%20Prj%20CIFAKE/docs/images/cm_MLP.png) |
+
 ## 🚀 Getting Started
 
 ### Prerequisites
