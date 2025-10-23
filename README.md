@@ -1,10 +1,10 @@
 # RealorAI: Real vs AI-Generated Image Classification
 
-## 🎯 Project Overview
+##  Project Overview
 
 A comprehensive machine learning project that evaluates and compares 9 different models for detecting AI-generated (fake) images using the CIFAKE dataset. The project implements both traditional machine learning approaches and deep learning to provide a thorough analysis of different classification techniques.
 
-## 🔍 Models Implemented
+##  Models Implemented
 
 1. **Traditional ML Models**
    - Logistic Regression
@@ -24,7 +24,7 @@ A comprehensive machine learning project that evaluates and compares 9 different
   - **Training Set**: 100,000 images (50,000 REAL + 50,000 FAKE)
   - **Test Set**: 20,000 images (10,000 REAL + 10,000 FAKE)
 
-## 🤖 Models Implemented
+##  Models Implemented
 
 1. **Logistic Regression** - Baseline linear classifier
 2. **K-Nearest Neighbors (KNN)** - Instance-based learning
@@ -65,7 +65,7 @@ RealorAI/
 | Naive Bayes         | 0.6050   | 0.5947    | 0.6595 | 0.6254   |
 | Decision Tree       | 0.6755   | 0.7270    | 0.562  | 0.6340   |
 | Random Forest       | 0.8040   | 0.7946    | 0.820  | 0.8071   |
-| XGBoost             | 0.8143   | 0.8141    | 0.8145 | 0.8143   |
+| **XGBoost**         |**0.8143**|**0.8141** |**0.8145**|**0.8143**|
 | AdaBoost            | 0.7068   | 0.7064    | 0.7075 | 0.7070   |
 | MLP                 | 0.7548   | 0.7786    | 0.712  | 0.7438   |
 
@@ -91,7 +91,7 @@ RealorAI/
 | AdaBoost            | ![cm_AdaBoost](ML%20Prj%20CIFAKE/docs/images/cm_AdaBoost.png) |
 | MLP                 | ![cm_MLP](ML%20Prj%20CIFAKE/docs/images/cm_MLP.png) |
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Python 3.8+
@@ -125,7 +125,7 @@ RealorAI/
    jupyter notebook "ML Prj CIFAKE/CIFAKE_ML_Project.ipynb"
    ```
 
-## 📦 Dependencies
+##  Dependencies
 
 - numpy
 - pandas
@@ -138,7 +138,7 @@ RealorAI/
 - pillow
 - xgboost
 
-## 📊 Model Evaluation Metrics
+##  Model Evaluation Metrics
 
 Each model is evaluated using:
 - **Accuracy**: Overall correctness
@@ -146,7 +146,7 @@ Each model is evaluated using:
 - **Recall**: True positives / (True positives + False negatives)
 - **F1-Score**: Harmonic mean of precision and recall
 
-## 🔄 Workflow
+##  Workflow
 
 1. **Data Loading**: Images are loaded from the CIFAKE dataset structure
 2. **Preprocessing**: 
@@ -157,11 +157,11 @@ Each model is evaluated using:
 4. **Evaluation**: Comprehensive metrics calculated and compared
 5. **Comparison**: Results aggregated in a comparative DataFrame
 
-## 💡 Key Findings
+##  Key Findings
 
 The notebook generates a results comparison table showing performance metrics for all 9 models, helping identify which approach works best for real vs. fake image detection.
 
-## 🔧 Customization
+##  Customization
 
 You can modify the following in the notebook:
 - KNN k-values: Change `k_values = [3, 5, 7, 9, 11]`
@@ -170,13 +170,13 @@ You can modify the following in the notebook:
 - Neural network architecture: Edit layers in MLP model
 - Training epochs: Adjust `epochs=50`
 
-## 📝 Notes
+##  Notes
 
 - The project uses image flattening for traditional ML algorithms (32×32×3 = 3,072 features)
 - Neural networks use the original image shape for better feature extraction
 - Cross-validation can be added for more robust evaluation
 
-## 🤝 Contributing
+##  Contributing
 
 Feel free to:
 - Suggest improvements to model architectures
@@ -184,18 +184,16 @@ Feel free to:
 - Optimize hyperparameters
 - Enhance data preprocessing
 
-## 📄 License
+##  License
 
 MIT License - feel free to use this project for educational and research purposes.
 
-## 👤 Author
+##  Author
 
-Snikitha V
-
-## 📞 Support
-
-For issues or questions, please open a GitHub issue or contact the maintainer.
+Snikitha V 
+Akhilesh K
 
 ---
 
 **Last Updated**: October 23, 2025
+
