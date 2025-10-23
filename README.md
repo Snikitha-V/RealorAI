@@ -1,12 +1,23 @@
-# RealorAI - CIFAKE Detection
+# RealorAI: Real vs AI-Generated Image Classification
 
-A comprehensive machine learning project for detecting AI-generated (fake) images vs. real images using the CIFAKE dataset.
+## 🎯 Project Overview
 
-## 📊 Project Overview
+A comprehensive machine learning project that evaluates and compares 9 different models for detecting AI-generated (fake) images using the CIFAKE dataset. The project implements both traditional machine learning approaches and deep learning to provide a thorough analysis of different classification techniques.
 
-This project compares **9 different machine learning and deep learning models** to classify images as either:
-- **REAL**: Authentic photographs
-- **FAKE**: AI-generated images
+## 🔍 Models Implemented
+
+1. **Traditional ML Models**
+   - Logistic Regression
+   - K-Nearest Neighbors (KNN)
+   - Support Vector Machine (SVM)
+   - Gaussian Naive Bayes
+   - Decision Tree
+   - Random Forest
+   - XGBoost
+   - AdaBoost
+
+2. **Deep Learning**
+   - Multi-Layer Perceptron (MLP) using TensorFlow/Keras
 
 ### Dataset Statistics
 - **Total Images**: 120,000
